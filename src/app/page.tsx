@@ -4,7 +4,7 @@ import { useState } from "react"
 import { Button } from "./component/ui/button"
 import { Input } from "./component/ui/input"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./component/ui/tabs"
-import { MapPin, Mail, Phone, Menu, Database, Cpu, Globe, BookOpen, Building2, Sprout, Mountain, ChevronDown } from 'lucide-react'
+import {  Mail, Phone, Menu, Database, Cpu, Globe, BookOpen, Building2, Sprout, Mountain, ChevronDown } from 'lucide-react'
 import Link from "next/link"
 import { motion, AnimatePresence } from "framer-motion"
 
@@ -203,7 +203,7 @@ export default function Component() {
                       <div className="md:w-1/2">
                         <h3 className="text-2xl font-bold text-gray-900 mb-2">Precision Agriculture</h3>
                         <p className="text-gray-700 mb-4">
-                          Datolla's advanced analytics and remote sensing technologies enable farmers to optimize crop yields, manage resources efficiently, and practice sustainable agriculture.
+                          Datolla&apos; advanced analytics and remote sensing technologies enable farmers to optimize crop yields, manage resources efficiently, and practice sustainable agriculture.
                         </p>
                         <Button variant="outline" className="text-white hover:bg-gray-800">Learn More</Button>
                       </div>
@@ -231,7 +231,7 @@ export default function Component() {
                       <div className="md:w-1/2">
                         <h3 className="text-2xl font-bold mb-2 text-gray-900">Engineering Excellence</h3>
                         <p className="text-gray-700 mb-4">
-                          Datolla's 3D visualization and simulation tools revolutionize engineering projects, from infrastructure planning to risk assessment and resource optimization.
+                          Datolla&apos; 3D visualization and simulation tools revolutionize engineering projects, from infrastructure planning to risk assessment and resource optimization.
                         </p>
                         <Button variant="outline" className="text-white hover:bg-gray-800">Learn More</Button>
                       </div>
