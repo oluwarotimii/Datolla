@@ -41,11 +41,11 @@ export default function Component() {
               About Us
             </Link>
           </nav>
-          <Button className="hidden md:inline-flex hover:bg-slate-600" variant="outline">
+          <Button className="hidden md:inline-flex  hover:bg-slate-600" variant="outline">
             Contact Us
           </Button>
-          <Button className="md:hidden" size="icon" variant="ghost" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-            <Menu className="h-6 w-6" />
+          <Button className="md:hidden text-gray-900" size="icon" variant="ghost" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+            <Menu className="h-6 w-6  text-gray-900" />
             <span className="sr-only">Toggle menu</span>
           </Button>
         </div>
@@ -58,20 +58,20 @@ export default function Component() {
             exit={{ opacity: 0, y: -20 }}
             className="md:hidden bg-white border-b"
           >
-            <nav className="container py-4 flex flex-col gap-2">
-              <Link className="text-sm font-medium hover:text-green-600 transition-colors" href="#">
+            <nav className="container  py-4 flex flex-col gap-2">
+              <Link className="text-sm  px-7 text-gray-900 font-medium hover:text-green-600 transition-colors" href="#">
                 Solutions
               </Link>
-              <Link className="text-sm font-medium hover:text-green-600 transition-colors" href="#">
+              <Link className="text-sm  px-7 text-gray-900 font-medium hover:text-green-600 transition-colors" href="#">
                 Industries
               </Link>
-              <Link className="text-sm font-medium hover:text-green-600 transition-colors" href="#">
+              <Link className="text-sm  px-7 text-gray-900 font-medium hover:text-green-600 transition-colors" href="#">
                 CGLA
               </Link>
-              <Link className="text-sm font-medium hover:text-green-600 transition-colors" href="#">
+              <Link className="text-sm  px-7 text-gray-900 font-medium hover:text-green-600 transition-colors" href="#">
                 About Us
               </Link>
-              <Button className="w-full mt-2" variant="outline">
+              <Button className="w-15 mx-17  text-white mt-2" variant="outline">
                 Contact Us
               </Button>
             </nav>
